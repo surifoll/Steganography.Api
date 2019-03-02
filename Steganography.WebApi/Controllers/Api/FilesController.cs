@@ -35,20 +35,20 @@ namespace Steganography.WebApi.Controllers.Api
 
                     file1List = data.IsExtraction
                         ? Utils.Hide2(data, image.Image, filePath, password, filePathResult)
-                        : Utils.Extract2(data, image.Image, password, filePathResult);
+                        : Utils.Extract2(image.Image, password, filePathResult);
 
                     var fileInfo = new FileInfo(filePathResult);
 
 
                     return Ok(new
                     {
-                        path = data.IsExtraction ? "~/NewImage/" + img : img, data = file1List,
+                        path = data.IsExtraction ? "~/NewImage/" + img : img, 
+                        data = file1List,
                         base64 = data.IsExtraction ? Convert.ToBase64String(File.ReadAllBytes(filePath)) : ""
                     });
                 }
 
                 file1List = null;
-                return BadRequest("Second File Not Found");
                 return BadRequest("File Not Found");
             }
             catch (FileNotFoundException ex)

@@ -86,7 +86,7 @@ namespace Steganography.Engine
             return (Bitmap) Image.FromFile(filePath);
         }
 
-        public static string Extract2(DataModel data, Image file, string _PASSWORD,
+        public static string Extract2( Image file, string _PASSWORD,
             string filePathResult)
         {
             // Retrieve the encrypted data from the image
@@ -99,8 +99,8 @@ namespace Steganography.Engine
             // Decrypt the retrieven data on the image
             var decryptedData = StringCipher.Decrypt(encryptedData, _PASSWORD);
 
-            data.Info = decryptedData;
-            return data.Info; //(Bitmap) Image.FromFile(filePath);
+            //data.Info = decryptedData;
+            return decryptedData;//data.Info; //(Bitmap) Image.FromFile(filePath);
         }
     }
 }

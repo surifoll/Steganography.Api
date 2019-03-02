@@ -1,0 +1,9 @@
+/Users/surajfehintola/RiderProjects/Steganography/Steganography.Engine/bin/Debug/Steganography.Engine.dll
+/Users/surajfehintola/RiderProjects/Steganography/Steganography.Engine/bin/Debug/Steganography.Engine.pdb
+/Users/surajfehintola/RiderProjects/Steganography/Steganography.Engine/obj/Debug/Steganography.Engine.csprojAssemblyReference.cache
+/Users/surajfehintola/RiderProjects/Steganography/Steganography.Engine/obj/Debug/Steganography.Engine.csproj.CoreCompileInputs.cache
+/Users/surajfehintola/RiderProjects/Steganography/Steganography.Engine/obj/Debug/Steganography.Engine.dll
+/Users/surajfehintola/RiderProjects/Steganography/Steganography.Engine/obj/Debug/Steganography.Engine.pdb
+/Users/surajfehintola/RiderProjects/Steganography/Steganography.Engine/bin/Debug/System.Drawing.Common.dll
+/Users/surajfehintola/RiderProjects/Steganography/Steganography.Engine/bin/Debug/System.Drawing.Common.xml
+/Users/surajfehintola/RiderProjects/Steganography/Steganography.Engine/obj/Debug/Steganography.Engine.csproj.CopyComplete
